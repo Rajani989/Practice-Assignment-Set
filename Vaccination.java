@@ -29,9 +29,7 @@ class Vaccination extends Vaccine {
 		vaccine.firstDose("Indian", 18); // First dose taken. Please pay 50rs.
 		vaccine.firstDose("American", 20); // Sorry, you are not eligible for the first dose.
 		vaccine.secondDose(); // Please take the first dose before taking the second dose.
-		vaccine.firstDose("Indian", 20); // Sorry, you are not eligible for the first dose.
-		vaccine.secondDose(); // Please take the first dose before taking the second dose.
-		vaccine.firstDose("Indian", 18); // First dose taken. Please pay 50rs.
+                vaccine.firstDose("Indian", 18); // First dose taken. Please pay 50rs.
 		vaccine.secondDose(); // Second dose taken.
 	}
 }
@@ -51,7 +49,7 @@ class VaccinationSuccessful extends Vaccine {
 
 	public static void main(String[] args) {
 		VaccinationSuccessful vs = new VaccinationSuccessful();
-		vs.boosterDose(); // Booster dose taken.
+		vs.boosterDose(); 
 	}
 }
 
